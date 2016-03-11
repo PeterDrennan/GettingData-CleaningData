@@ -1,6 +1,6 @@
 # GettingData-CleaningData Week 4 Assignment
 
-##Included in this repo is the following items
+##Included in this repo are the following items
 * A code book - 
 * README.md [which you are reading!]
 * run_analysis.R - the elements of the code for the assigment. 
