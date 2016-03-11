@@ -1,4 +1,4 @@
-# GettingData-CleaningData Week 4 Assignment
+# CleaningData Week 4 Assignment
 
 ##Included in this repo are the following items
 * A code book - 
