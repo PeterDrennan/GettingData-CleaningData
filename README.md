@@ -9,6 +9,8 @@ Assignment for Week 4
 ##Download Instructions
 
 *Click on "Download Zip" from this page https://github.com/PeterDrennan/GettingData-CleaningData
+
 *This wil will download to your directory
+
 *Run the script named run_analysis.R in R or R Studio to inspect the code
 
