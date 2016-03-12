@@ -38,6 +38,7 @@ activity <- merge(Y, activities, by="activityId")$activityLabel
 ## use merge to merge(funnily enough) Y and activities by the activityId in activityLabel
 data <- cbind(subjectbind, X, activity)
 ##use cbind to merge the columns subjectbind, X, and activity
+write.table(data, "mergedtidydata.txt")
 library(data.table)
 ##access data.table package
 Datatable <-data.table(data)
