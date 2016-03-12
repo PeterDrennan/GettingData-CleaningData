@@ -1,7 +1,7 @@
 # CleaningData Week 4 Assignment
 
 ##Included in this repo are the following items
-* A code book - 
+* A code book - which details the study, edits previous code books, variables, and transformations completed.
 * README.md [which you are reading!]
 * run_analysis.R - the elements of the code for the assigment. 
 
