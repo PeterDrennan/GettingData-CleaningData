@@ -11,5 +11,5 @@
 
 *This wil will download to your directory
 
-*Run the script named run_analysis.R in R or R Studio to inspect the code
+*Run the script named "run_analysis.R" in R or R Studio to inspect the code
 
