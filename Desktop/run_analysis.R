@@ -37,7 +37,7 @@ Y <- rbind(Ytest, Ytrain)
 activity <- merge(Y, activities, by="activityId")$activityLabel
 ## use merge to merge(funnily enough) Y and activities by the activityId in activityLabel
 data <- cbind(subjectbind, X, activity)
-##use cbind to merge the columns subjectbind, X, and activity
+##use cbind to merge the columns subjectbind, X, and activity.
 write.table(data, "mergedtidydata.txt")
 library(data.table)
 ##access data.table package
@@ -47,6 +47,8 @@ calculatedData<- Datatable[, lapply(.SD, mean), by=c("subjectId", "activity")]
 ## and activity
 write.table(calculatedData, "calculated.tidy.data.txt")
 ##write the table to your working directory
+
+
  
 
 
