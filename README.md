@@ -7,7 +7,7 @@
 
 ##Download Instructions
 
-*Click on "Download Zip" from this page https://github.com/PeterDrennan/GettingData-CleaningData
+*Click on "Download Zip" from this page [GettingData-CleaningData](https://github.com/PeterDrennan/GettingData-CleaningData)
 
 *This will download to your directory
 
