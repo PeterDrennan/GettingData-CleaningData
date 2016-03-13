@@ -1,3 +1,4 @@
+runit <-function() {
 subjecttest <- read.table("subject_test.txt")
 ## read in the subject test file name it subjecttest
 Xtest <- read.table("X_test.txt")
@@ -34,6 +35,7 @@ X <- X[, newFeatures]
 names(X) <- gsub("\\(|\\)", "", features$featureLabel[newFeatures])
 Y <- rbind(Ytest, Ytrain)
 ## use rbind to merge Ytest, and Ytrain, name it Y
+names(Y) = "activityId"
 activity <- merge(Y, activities, by="activityId")$activityLabel
 ## use merge to merge(funnily enough) Y and activities by the activityId in activityLabel
 data <- cbind(subjectbind, X, activity)
@@ -47,6 +49,7 @@ calculatedData<- Datatable[, lapply(.SD, mean), by=c("subjectId", "activity")]
 ## and activity
 write.table(calculatedData, "calculated.tidy.data.txt")
 ##write the table to your working directory
+}
  
 
 
