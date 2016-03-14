@@ -28,7 +28,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 * Merge files with proper data labels that are readable. 
 
-* Created two data sets using write.table function. Uploaded to GitHub - [Final Tidy Dataset](https://github.com/PeterDrennan/GettingData-CleaningData/blob/master/Desktop/final.tidy.data.txt)
+* Created two data sets using write.table function. Uploaded to GitHub - [Final Tidy Dataset](https://github.com/PeterDrennan/GettingData-CleaningData/blob/master/Desktop/final.tidy.data.txt), and [Tidy Datset- RAW](https://github.com/PeterDrennan/GettingData-CleaningData/blob/master/Desktop/tidydata.txt)
 
 ## Technical Details
 
