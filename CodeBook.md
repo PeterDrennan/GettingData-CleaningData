@@ -19,11 +19,12 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 *Build a tidy data set with the mean of each variable for each activity and each subject.
 
-*For a full play by play breakdown of the methods used, read the file named "run_analysis.R" located in the Desktop folder of this rep. 
+*For a full play by play breakdown of the methods used, read the file named "run_analysis.R" located in the Desktop folder of this repo. 
 
 ## Technical Details
 
 *Use the following packages in R - data.table.
+*Functions used grep, cbind, rbind, write.table, gsub, read.table, & merge.
 
 ##Variables
 
