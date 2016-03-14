@@ -24,11 +24,11 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 ##In Brief...
 * Read all the files into R using read.table
 
-*Isolate data on means and standard deviation
+* Isolate data on means and standard deviation
 
-*Merge files with proper data labels that are readable. 
+* Merge files with proper data labels that are readable. 
 
-*Created two data sets using write.table function. Uploaded to GitHub - [Final Tidy Dataset](https://github.com/PeterDrennan/GettingData-CleaningData/blob/master/Desktop/final.tidy.data.txt)
+* Created two data sets using write.table function. Uploaded to GitHub - [Final Tidy Dataset](https://github.com/PeterDrennan/GettingData-CleaningData/blob/master/Desktop/final.tidy.data.txt)
 
 ## Technical Details
 
