@@ -1,4 +1,4 @@
-runit <-function() {
+
 subjecttest <- read.table("subject_test.txt")
 ## read in the subject test file name it subjecttest
 Xtest <- read.table("X_test.txt")
@@ -24,7 +24,6 @@ newFeatures <- grep("-mean\\(\\)|-std\\(\\)", features$featureLabel)
 ## use grep to isolate the mean and standard deviatioon, name it newFeatures
 subjectbind <-rbind(subjecttest, subjecttrain)
 ## use rbind to merge subjecttest and subjecttrain name it subjectbind
-names(subjectbind)
 names(subjectbind) <- "subjectId"
 ## add subjectId as name 
 head(names(subjectbind))
@@ -40,16 +39,15 @@ activity <- merge(Y, activities, by="activityId")$activityLabel
 ## use merge to merge(funnily enough) Y and activities by the activityId in activityLabel
 data <- cbind(subjectbind, X, activity)
 ##use cbind to merge the columns subjectbind, X, and activity
-write.table(data, "mergedtidydata.txt")
+write.table(data, "tidydata.txt")
 library(data.table)
 ##access data.table package
-Datatable <-data.table(data)
-calculatedData<- Datatable[, lapply(.SD, mean), by=c("subjectId", "activity")]
+Datatable.1 <-data.table(data)
+calculatedData<- Datatable.1[, lapply(.SD, mean), by=c("subjectId", "activity")]
 ## subset Datatable with an lapply function on standard deviation, and means in the columns subjectId
 ## and activity
-write.table(calculatedData, "calculated.tidy.data.txt")
+write.table(calculatedData, "final.tidy.data.txt")
 ##write the table to your working directory
-}
  
 
 
