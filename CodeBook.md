@@ -21,6 +21,15 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 *For a full play by play breakdown of the methods used, read the file named "run_analysis.R" located in the Desktop folder of this repo. 
 
+##In Brief...
+
+* Read all the files into R using read.table
+
+*Isolate data on means and standard deviation
+
+*Merge files with proper data labels that are readable. 
+
+*Created two data sets using write.table function. Uploaded to GitHub - 
 ## Technical Details
 
 *Use the following packages in R - data.table.
