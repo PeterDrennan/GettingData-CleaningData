@@ -19,7 +19,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 * Build a tidy data set with the mean of each variable for each activity and each subject.
 
-* For a full play by play breakdown of the methods used, read the file named "run_analysis.R" located in the Desktop folder of this repo. 
+* For a full play by play breakdown of the methods used, read the file named "Run_analysis2.R" located in the Desktop folder of this repo. 
 
 ##In Brief...
 * Read all the files into R using read.table
@@ -28,13 +28,13 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 * Merge files with proper data labels that are readable. 
 
-* Created two data sets using write.table function. Uploaded to GitHub - [Final Tidy Dataset](https://github.com/PeterDrennan/GettingData-CleaningData/blob/master/Desktop/final.tidy.data.txt), and [Tidy Datset- RAW](https://github.com/PeterDrennan/GettingData-CleaningData/blob/master/Desktop/tidydata.txt)
+* Created a data set using write.table function. 
 
 ## Technical Details
 
-* Use the following packages in R - data.table.
+* Use the following packages in R - data.table, and plyr
 
-* Functions used grep, cbind, rbind, write.table, gsub, read.table, & merge.
+* Functions used cbind, rbind, write.table, gsub, read.table, order, aggregate & merge.
 
 ##Variables
 
